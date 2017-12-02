@@ -1,7 +1,7 @@
 {
-  "name": "discord-timebot",
-  "version": "1.2.0",
-  "description": "A Discord bot to display the current time in three Western timezones: CET, ET, and PT.",
+  "name": "discord-cygbot",
+  "version": "0.0.1",
+  "description": "All-purpose Discord bot.",
   "keywords": [
     "discord"
   ],
