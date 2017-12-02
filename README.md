@@ -1,7 +1,5 @@
 cygbot
 ======
-![Example output in Discord](https://cdn.glitch.com/e2c24270-97c5-4c23-9d94-6ca0054e4928%2Foutput.png?1511624557883)
-
 All-purpose Discord bot.
 
 ## Requirements ##
@@ -47,7 +45,6 @@ If it's working, you should see "Ready!" in the Glitch logs.
     - <https://github.com/abalabahaha/eris/blob/master/examples/basicCommands.js>
 * <https://anidiotsguide.gitbooks.io/discord-js-bot-guide/other-guides/hosting-on-glitchcom.html>
 * <https://watch-json.glitch.me/>
-* <https://momentjs.com/timezone/>
 
 ## Troubleshooting ##
 
