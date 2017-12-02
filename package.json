@@ -9,9 +9,9 @@
     "name": "Cygnatus",
     "url": "https://cygnatus.com"
   },
-    "repository": {
+  "repository": {
     "type": "git",
-    "url": "git+https://github.com/cygnatus/discord-cygbot.git"
+    "url": "git+https://github.com/cygnatus/cygbot.git"
   },
   "main": "server.js",
   "scripts": {
@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "eris": "^0.8.1",
-    "mathjs": "*"
+    "mathjs": "^3.17.0"
   },
   "engines": {
     "node": "8.x"

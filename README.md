@@ -14,7 +14,6 @@ Right now, I've only allowed the bot to let me invite it, but this is how it'd w
 1. Invite bot using this [invitation link][].
 2. Make sure the bot is online.
     * If not, something that wasn't your fault bugged out.
-3. Type `!timebot`.
 
 If it's working, you should see "Ready!" in the Glitch logs.
 
