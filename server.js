@@ -13,7 +13,7 @@ bot.on("ready", () => {
 
 bot.on("messageCreate", (msg) => {
     if (msg.content.startsWith("=")) {
-        return math.eval(msg.slice(1, -1));
+        bot.createMessage(msg.channel.id, math.eval(msg.content.slice(1))); // Slice "=" from the expression
     }
 });
 

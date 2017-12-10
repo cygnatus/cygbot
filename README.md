@@ -23,7 +23,7 @@ If it's working, you should see "Ready!" in the Glitch logs.
 2. [Register a Discord app][new-app]
 3. Fill out the basics and ignore the redirect stuff
 4. Click **Create a Bot User**
-5. Copy your client secret and paste it to `.env` in your remix
+5. Copy your **bot token**, *not your client secret*, and paste it into your `.env`
 6. Your bot's invitation link is `https://discordapp.com/oauth2/authorize?&client_id={{CLIENT_ID}}&scope=bot&permissions=0`
 
 ## Customization ##
@@ -49,7 +49,14 @@ If it's working, you should see "Ready!" in the Glitch logs.
 
 ### My bot is offline ###
 
-It's probably asleep. Try waking it either by typing a command in your server or by updating some code in your Glitch project.
+It's probably asleep. Try waking it either by
+
+* Typing a command in your server
+* Updating some code in your Glitch project
+    - Remember to check the logs
+* Visiting its glitch.me page
+
+Also check whether the Discord invitation link still works.
 
 Check out "Hosting a Bot on Glitch.com" linked above in **Resources** for more on keeping your sleepy bot awake.
 
